@@ -1,10 +1,9 @@
-<html>
-<body>
+<html><body>
 <?php
-Hello
+
+
+echo 'Hello world';
+
 ?>
-
-
 </body>
-
 </html>
