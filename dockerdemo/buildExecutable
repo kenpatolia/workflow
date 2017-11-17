@@ -1,5 +1,5 @@
 cd /
 cd /Users/kenpatolia/workflow/workflow/dockerdemo
 
-docker build -t hello-world /Users/kenpatolia/workflow/workflow/dockerdemo/
+docker build -t hello-world .
 docker run  -d --name helloworld -p 8082:80 -v  /Users/kenpatolia/workflow/workflow/dockerdemo/src:/var/www/html hello-world
