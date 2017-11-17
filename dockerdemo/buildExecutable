@@ -1,6 +1,6 @@
 cd /
 cd /Users/kenpatolia/workflow/workflow/dockerdemo
-
+docker login --username="sastoo" --password="Roshani123"
 docker-compose up -d
 //docker run  -d --name drupal -p 8080:80 -v  /Users/kenpatolia/workflow/workflow/dockerdemo/drupal:/var/www/ drupalnest
 //docker run -d  -p8080:80 httpd
