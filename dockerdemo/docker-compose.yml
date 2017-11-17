@@ -9,7 +9,6 @@ services:
     volumes:
       -  /Users/kenpatolia/upenn_local/sites:/var/www/sites
       -  /Users/kenpatolia/upenn_local/profiles:/var/www/profiles
-      -  /Users/kenpatolia/upenn_local/db:/var/lib/mysql:rw   
  #   # this takes advantage of the feature in Docker that a new anonymous
     #   # volume (which is what we're creating here) will be initialized with the
     #   # existing content of the image at the same location
