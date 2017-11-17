@@ -1,6 +1,6 @@
 cd /
 cd /Users/kenpatolia/workflow/workflow/dockerdemo
 
-docker build -t drupalnest  .
-docker run  -d --name drupal -p 8080:80 -v  /Users/kenpatolia/workflow/workflow/dockerdemo/drupal:/var/www/ drupalnest
+docker-compose up -d
+//docker run  -d --name drupal -p 8080:80 -v  /Users/kenpatolia/workflow/workflow/dockerdemo/drupal:/var/www/ drupalnest
 //docker run -d  -p8080:80 httpd
